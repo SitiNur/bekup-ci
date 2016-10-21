@@ -9,7 +9,8 @@ class Task extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->load->view('task');
+		$data['task'] = $this->task_model->view();
+		$this->load->view('task_view', $data);
 	}
 
 	public function simpan(){
