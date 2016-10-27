@@ -1,0 +1,25 @@
+define({ "api": [
+  {
+    "type": "PUT",
+    "url": "/",
+    "title": "todo PUT List Todo",
+    "name": "PutTodo",
+    "group": "Todo",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "id",
+            "description": "<p>Todo unique ID.</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "application/controllers/Todo.php",
+    "groupTitle": "Todo"
+  }
+] });
